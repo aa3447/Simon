@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body class="d-flex flex-column justify-content-center" >
+        <audio class = "Sound" >
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg"  preload="auto">
+        </audio>
+        <audio class = "Sound" >
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg" preload="auto">
+        </audio>
+        <audio  class = "Sound" >
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg" preload="auto">
+        </audio >
+        <audio class = "Sound" >
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg"  preload="auto">
+        </audio>
+        <div id="wapper" class="container " >          
+            <p id="win" class="text-center"></p>
+            <div class="justify-content-center row">
+                <p >Steps: <span id="steps">0</span> 
+                     &nbsp; Player's Score: <span id="playerScore">0</span>
+                     &nbsp; Player's High Score: <span id="playerHighScore">0</span></p>            
+            </div>
+            <div class="text-center">
+                    <button type ="button" id="NewGame" class="btn " value="">New Game</button>
+                    <button type ="button" id="hard" class="btn " value="">Hard Mode: <span id="hardState">Off</span></button>
+                    <button type ="button" id="nightMode" class="btn " value="">Night Mode</button>
+            </div>  
+            <div id="simonWapper">
+                <div class="row justify-content-center">
+                    <div id="redWapper">
+                        <button id="red" class="btn btn-block simon" value="" disabled></button>
+                    </div>
+                     <div id="blueWapper">
+                        <button id="blue" class="btn btn-block simon" value="" disabled></button>
+                    </div>     
+                </div>
+                <div class="row justify-content-center">
+                    <div id="greenWapper">
+                         <button id="green" class="btn btn-block simon" value="" disabled></button>
+                    </div>
+                    <div id="yellowWapper">
+                        <button id="yellow" class="btn btn-block simon" value="" disabled></button> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

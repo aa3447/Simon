@@ -1,0 +1,70 @@
+
+html{
+    height: 100%;
+    font-size: 2vmax;
+}
+body{
+    background-color: white;
+    min-height: 100%;
+    color: black;
+    
+}
+button{
+    border: none;
+    outline:none;
+    font-size: 1rem;
+}
+button:active{
+    transform: translateY(4px);   
+}
+#simonWapper{
+    padding-top: 1%;
+}
+#red{
+    height: 15vmax;
+    width: 15vmax;
+    background-color: red;
+    border-top-left-radius: 50%;
+}
+#redWapper{
+    padding-right: 2.5%;
+}
+#blue{
+    height: 15vmax;
+    width: 15vmax;
+    background-color: blue;
+    border-top-right-radius: 50%;
+}
+#blueWapper{
+    padding-left: 2.5%;
+}
+#green{
+    height: 15vmax;
+    width: 15vmax;
+    border-bottom-left-radius: 50%;
+    background-color: green;
+}
+#greenWapper{
+    padding-right: 2.5%;
+    padding-top: 5%;
+}
+#yellow{
+    height: 15vmax;
+    width: 15vmax;
+    border-bottom-right-radius: 50%;
+    background-color: yellow;
+}
+#yellowWapper{
+    padding-left: 2.5%;
+    padding-top: 5%;
+}
+
+
+
+
+  
+
+
+
+
+
